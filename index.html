@@ -43,21 +43,21 @@
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">台東鐵花商圈特色尋寶遊戲</h2>
                         <a class="btn btn-primary" href="#about">開啟相機</a>
                         <video id="preview"></video>
-                        <script type="text/javascript">
-                        let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
-                        scanner.addListener('scan', function (content) {
-                            console.log(content);
-                        });
-                        Instascan.Camera.getCameras().then(function (cameras) {
-                            if (cameras.length > 0) {
-                            scanner.start(cameras[0]);
-                            } else {
-                            console.error('No cameras found.');
-                            }
-                        }).catch(function (e) {
-                            console.error(e);
-                        });
-                        </script>
+<!--                         <script type="text/javascript"> -->
+//                         let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+//                         scanner.addListener('scan', function (content) {
+//                             console.log(content);
+//                         });
+//                         Instascan.Camera.getCameras().then(function (cameras) {
+//                             if (cameras.length > 0) {
+//                             scanner.start(cameras[0]);
+//                             } else {
+//                             console.error('No cameras found.');
+//                             }
+//                         }).catch(function (e) {
+//                             console.error(e);
+//                         });
+//                         </script>
                     </div>
                 </div>
             </div>
