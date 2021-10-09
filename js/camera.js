@@ -3,7 +3,7 @@ import "./camera.css";
 const constraints = {
   audio: false,
   video: {
-    facingMode: "environmevt"
+    facingMode: "user"
   }
 };
 
